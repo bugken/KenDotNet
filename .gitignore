@@ -1,0 +1,6 @@
+#MvcMovie项目忽略文件以及文件夹
+MvcMovie/.vs/
+MvcMovie/bin/
+MvcMovie/obj/
+
+
