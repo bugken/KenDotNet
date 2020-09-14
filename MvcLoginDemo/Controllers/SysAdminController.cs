@@ -39,7 +39,7 @@ namespace MvcLoginDemo.Controllers
                 ViewData["info"] = "用户名或密码错误，登录失败";
             }
             //3.返回数据
-            return View();
+            return View("AdminLogin");
         }
 
     }
