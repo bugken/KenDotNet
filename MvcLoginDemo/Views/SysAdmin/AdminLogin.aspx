@@ -9,10 +9,11 @@
 </head>
 <body>
     <div>
-        <form method="post" action="#">
+        <form method="post" action="/SysAdmin/AdminLogin">
             用户名：<input name="loginid" type="text" />
             密码：<input name="loginPwd" type="password"/>
-            <input type="submit" value="登录" />
+            <input type="submit" value="登录" /><br/><br/>
+            <%=ViewData["info"] %>
         </form>
     </div>
 </body>

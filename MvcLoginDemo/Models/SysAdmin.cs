@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace MvcLoginDemo.Models
 {
@@ -12,7 +14,7 @@ namespace MvcLoginDemo.Models
     public class SysAdmin
     {
         public int LoginId { get; set; }
-        public int LoginPwd { get; set; }
-        public int AdminName { get; set; }
+        public string LoginPwd { get; set; }
+        public string AdminName { get; set; }
     }
 }
